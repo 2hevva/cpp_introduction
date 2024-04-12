@@ -1,7 +1,6 @@
 # ninja log v5
-8	688	7346146033094181	CMakeFiles/cpp_introduction.dir/cpp_print_hello_world.cpp.obj	1e16c6a9698994c4
-692	951	7346146035638382	cpp_introduction.exe	95d50a2a13cc94ff
-33	694	7346149160662336	CMakeFiles/cpp_introduction.dir/cpp_print_hello_world.cpp.obj	1e16c6a9698994c4
-695	915	7346149162803995	cpp_introduction.exe	95d50a2a13cc94ff
 12	656	7346149293229820	CMakeFiles/cpp_introduction.dir/cpp_print_hello_world.cpp.obj	1e16c6a9698994c4
 657	871	7346149295306816	cpp_introduction.exe	95d50a2a13cc94ff
+8	539	7346158621803266	build.ninja	184c204abfcc0c85
+33	1061	7346158633703406	CMakeFiles/cpp_introduction.dir/1.1cpp_print_hello_world_and_comment.cpp.obj	3aa05ec827ebf1e4
+1062	1274	7346158635746789	cpp_introduction.exe	581b3d5d745a53f9

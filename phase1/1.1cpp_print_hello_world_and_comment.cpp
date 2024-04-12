@@ -1,7 +1,7 @@
-//
-// Created by Teacher on 24-4-12.
-//
-// iostream 顾名思义就是io的流对象库
+/*
+// Created by Teacher on 24-4-12. 这是多行注释
+*/
+//iostream 顾名思义就是io的流对象库
 #include<iostream>
 //使用namespace可以让库中的对象被直接访问而省略std::前缀，不然每次都需要std::
 using namespace std;
@@ -17,3 +17,5 @@ int main() {
 
     return 0;
 }
+
+//这是单行注释
