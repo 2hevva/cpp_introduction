@@ -61,6 +61,12 @@ build CMakeFiles/cpp_introduction.dir/phase1/1.2variable.cpp.obj: CXX_COMPILER__
   OBJECT_DIR = CMakeFiles\cpp_introduction.dir
   OBJECT_FILE_DIR = CMakeFiles\cpp_introduction.dir\phase1
 
+build CMakeFiles/cpp_introduction.dir/phase1/1.3constant.cpp.obj: CXX_COMPILER__cpp_introduction_unscanned_Debug C$:/Users/Teacher/Desktop/wz/cpp_introduction/phase1/1.3constant.cpp || cmake_object_order_depends_target_cpp_introduction
+  DEP_FILE = CMakeFiles\cpp_introduction.dir\phase1\1.3constant.cpp.obj.d
+  FLAGS = -g -std=gnu++14 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\cpp_introduction.dir
+  OBJECT_FILE_DIR = CMakeFiles\cpp_introduction.dir\phase1
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target cpp_introduction
@@ -69,7 +75,7 @@ build CMakeFiles/cpp_introduction.dir/phase1/1.2variable.cpp.obj: CXX_COMPILER__
 #############################################
 # Link the executable cpp_introduction.exe
 
-build cpp_introduction.exe: CXX_EXECUTABLE_LINKER__cpp_introduction_Debug CMakeFiles/cpp_introduction.dir/phase1/1.1cpp_print_hello_world_and_comment.cpp.obj CMakeFiles/cpp_introduction.dir/phase1/1.2variable.cpp.obj
+build cpp_introduction.exe: CXX_EXECUTABLE_LINKER__cpp_introduction_Debug CMakeFiles/cpp_introduction.dir/phase1/1.1cpp_print_hello_world_and_comment.cpp.obj CMakeFiles/cpp_introduction.dir/phase1/1.2variable.cpp.obj CMakeFiles/cpp_introduction.dir/phase1/1.3constant.cpp.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\cpp_introduction.dir

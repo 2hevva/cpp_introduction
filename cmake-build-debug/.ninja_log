@@ -1,11 +1,21 @@
 # ninja log v5
 12	656	7346149293229820	CMakeFiles/cpp_introduction.dir/cpp_print_hello_world.cpp.obj	1e16c6a9698994c4
-3	512	7346174440732600	build.ninja	184c204abfcc0c85
+4	503	7346176289269466	build.ninja	184c204abfcc0c85
 8	682	7346173562964666	CMakeFiles/cpp_introduction.dir/phase1/variable.cpp.obj	be1eed0d29224fef
-645	859	7346173875596366	cpp_introduction.exe	ca0d1fa8a15e1864
-33	1061	7346158633703406	CMakeFiles/cpp_introduction.dir/1.1cpp_print_hello_world_and_comment.cpp.obj	3aa05ec827ebf1e4
-8	644	7346173873529762	CMakeFiles/cpp_introduction.dir/phase1/1.1cpp_print_hello_world_and_comment.cpp.obj	e6d8ea2eed6afdc5
-4	503	7346174440732600	build.ninja	184c204abfcc0c85
-36	163	7346174443441482	CMakeFiles/cpp_introduction.dir/phase1/1.2variable.cpp.obj	d8529f4625e4cf1
 8	698	7346174609402328	CMakeFiles/cpp_introduction.dir/phase1/1.2variable.cpp.obj	d8529f4625e4cf1
 699	923	7346174611672663	cpp_introduction.exe	99bf9fb276505b61
+33	1061	7346158633703406	CMakeFiles/cpp_introduction.dir/1.1cpp_print_hello_world_and_comment.cpp.obj	3aa05ec827ebf1e4
+8	644	7346173873529762	CMakeFiles/cpp_introduction.dir/phase1/1.1cpp_print_hello_world_and_comment.cpp.obj	e6d8ea2eed6afdc5
+8	483	7346176671545005	CMakeFiles/cpp_introduction.dir/phase1/1.2variable.cpp.obj	d8529f4625e4cf1
+8	628	7346177536322652	CMakeFiles/cpp_introduction.dir/phase1/1.3constant.cpp.obj	618de68103dc6738
+629	848	7346177538433253	cpp_introduction.exe	3c56e27d33a2adf3
+8	658	7346180616072672	CMakeFiles/cpp_introduction.dir/phase1/1.3constant.cpp.obj	618de68103dc6738
+659	892	7346180618328201	cpp_introduction.exe	3c56e27d33a2adf3
+9	635	7346181220284423	CMakeFiles/cpp_introduction.dir/phase1/1.3constant.cpp.obj	618de68103dc6738
+636	850	7346181222365009	cpp_introduction.exe	3c56e27d33a2adf3
+29	494	7346183399242587	CMakeFiles/cpp_introduction.dir/phase1/1.3constant.cpp.obj	618de68103dc6738
+8	1011	7346183404406179	CMakeFiles/cpp_introduction.dir/phase1/1.2variable.cpp.obj	d8529f4625e4cf1
+1012	1304	7346183407259825	cpp_introduction.exe	3c56e27d33a2adf3
+8	137	7346183860674892	CMakeFiles/cpp_introduction.dir/phase1/1.2variable.cpp.obj	d8529f4625e4cf1
+29	689	7346183866202029	CMakeFiles/cpp_introduction.dir/phase1/1.3constant.cpp.obj	618de68103dc6738
+690	919	7346183868315911	cpp_introduction.exe	3c56e27d33a2adf3
