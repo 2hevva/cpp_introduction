@@ -1,6 +1,11 @@
 # ninja log v5
 12	656	7346149293229820	CMakeFiles/cpp_introduction.dir/cpp_print_hello_world.cpp.obj	1e16c6a9698994c4
-657	871	7346149295306816	cpp_introduction.exe	95d50a2a13cc94ff
-8	539	7346158621803266	build.ninja	184c204abfcc0c85
+3	512	7346174440732600	build.ninja	184c204abfcc0c85
+8	682	7346173562964666	CMakeFiles/cpp_introduction.dir/phase1/variable.cpp.obj	be1eed0d29224fef
+645	859	7346173875596366	cpp_introduction.exe	ca0d1fa8a15e1864
 33	1061	7346158633703406	CMakeFiles/cpp_introduction.dir/1.1cpp_print_hello_world_and_comment.cpp.obj	3aa05ec827ebf1e4
-1062	1274	7346158635746789	cpp_introduction.exe	581b3d5d745a53f9
+8	644	7346173873529762	CMakeFiles/cpp_introduction.dir/phase1/1.1cpp_print_hello_world_and_comment.cpp.obj	e6d8ea2eed6afdc5
+4	503	7346174440732600	build.ninja	184c204abfcc0c85
+36	163	7346174443441482	CMakeFiles/cpp_introduction.dir/phase1/1.2variable.cpp.obj	d8529f4625e4cf1
+8	698	7346174609402328	CMakeFiles/cpp_introduction.dir/phase1/1.2variable.cpp.obj	d8529f4625e4cf1
+699	923	7346174611672663	cpp_introduction.exe	99bf9fb276505b61
