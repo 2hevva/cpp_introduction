@@ -320,15 +320,92 @@
 //}
 
 
-//例7.2
-//cout如果不指定精度，哪怕是double也会被默认忽略0而转为字符串，而显视的(double)进制转换也没有意义了，对十分位后为0的情况
-#include<bits/stdc++.h>
-using namespace std;
-double a;
-int main(){
-    double pi = 3.14159;
-    cin>>a;
-    cout<<fixed<<setprecision(4)<<2*a<<" "<<2*pi*a<<" "<<pi*a*a;
-    return 0;
-}
+////例7.2
+////cout如果不指定精度，哪怕是double也会被默认忽略0而转为字符串，而显视的(double)进制转换也没有意义了，对十分位后为0的情况
+//#include<bits/stdc++.h>
+//using namespace std;
+//double a;
+//int main(){
+//    double pi = 3.14159;
+//    cin>>a;
+//    cout<<fixed<<setprecision(4)<<2*a<<" "<<2*pi*a<<" "<<pi*a*a;
+//    return 0;
+//}
 
+
+//练7.1
+//判卷过于严苛的一题，还是类型问题，难
+//#include<bits/stdc++.h>
+//using namespace std;
+//int a,b;
+//int main(){
+//    cin>> a >> b;
+////    如果这里不使用(float)转换为float，由于ab都是int和2三个整型参与计算会忽略小数点后的内容，哪怕赋值给float也有损失了。
+////    除非使得a和b某一个是float类型才能满足要求，故我们可以使用强制类型转换使得这片内存的规则类型被改变
+////    而如果使用对cout进行进度的调整fixed设置精度为1，又会导致输出整型内容时后续会带个0，而导致系统判卷出错
+////    使用强制类型转换就可以使得不修改cout而去默认的提供各种类型保证内容无误，而由于是除以2所以不会出现过于奇怪的浮点数，只会出现x.5
+////    故此题完结
+//c风格的强制类型转换
+//    cout<<"s="<<(float)(a*b)/2;
+//c++风格的强制类型转换
+//    cout<<"s="<<static_cast<double>(a*b)/2;
+//    return 0;
+//}
+
+
+//练7.2
+//#include<bits/stdc++.h>
+//using namespace std;
+//double a;
+//int main(){
+//    cin>> a;
+//    cout<<fixed<<setprecision(12)<<a;
+//    return 0;
+//}
+
+
+//练7.3
+//#include<bits/stdc++.h>
+//using namespace std;
+//int a,b;
+//int main(){
+//    cin>>a >> b;
+//    cout<<fixed<<setprecision(2)<<a-b*0.8;
+//    return 0;
+//}
+
+
+//练7.4
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+////    三角形为底乘高除2
+//    cout<<fixed<<setprecision(2)<<static_cast<double>(15+25)*((150/15)*2)/2;
+//    return 0;
+//}
+
+
+//例8.1 难
+//#include<bits/stdc++.h>
+//using namespace std;
+//int a,hd,fif,twt,ten,fiv;
+//int main(){
+//    cin>>a;
+//    hd = a/100;
+//    a -= hd*100;
+//    fif = a/50;
+//    a -= fif*50;
+//    twt = a/20;
+//    a -= twt*20;
+//    ten = a/10;
+//    a -= ten*10;
+//    fiv = a/5;
+//    a -= fiv*5;
+//    cout<<hd<<endl
+//    <<fif<<endl
+//    <<twt<<endl
+//    <<ten<<endl
+//    <<fiv<<endl
+//    <<a/1;
+//    return 0;
+//}
