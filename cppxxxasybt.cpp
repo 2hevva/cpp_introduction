@@ -274,11 +274,61 @@
 //}
 
 //练6.2
+//#include<bits/stdc++.h>
+//using namespace std;
+//int a,b;
+//int main(){
+//    cin>>a>>b;
+//    cout<<"总的棵数："<<a*b;
+//    return 0;
+//}
+
+//练6.3难
+//#include<bits/stdc++.h>
+//using namespace std;
+////a为总人数 b为参加语文 c为参加数学 d为两者都参加
+////b与c的和可以得出参加兴趣小组的总人数，但其中重合了一部分两者都参加的人数所以要被减掉
+////b+c-d为参加兴趣班的人数，所以a-(b+c-d)为总人数减掉参加兴趣班的总人数
+//int a,b,c,d;
+//int main(){
+//    cin>> a >> b >> c >> d;
+////    cout<<a-(b+c-d);
+//    cout<<a-b-c+d;
+//    return 0;
+//}
+
+
+////练6.4
+//#include<bits/stdc++.h>
+//using namespace std;
+//int a,b,c;
+//int main(){
+//    cin>> a >> b >> c;
+//    cout<<a+b+c;
+//    return 0;
+//}
+
+////例7.1
+////http://bas.ssoier.cn:8086/ 会因为定义为float而某个测试脚本给了一个double数而出错
+//#include<bits/stdc++.h>
+//using namespace std;
+//double a;
+//int main(){
+//    cin>>a;
+//    cout<<fixed<<setprecision(3)<<a;
+//    return 0;
+//}
+
+
+//例7.2
+//cout如果不指定精度，哪怕是double也会被默认忽略0而转为字符串，而显视的(double)进制转换也没有意义了，对十分位后为0的情况
 #include<bits/stdc++.h>
 using namespace std;
-int a,b;
+double a;
 int main(){
-    cin>>a>>b;
-    cout<<"总的棵数："<<a*b;
+    double pi = 3.14159;
+    cin>>a;
+    cout<<fixed<<setprecision(4)<<2*a<<" "<<2*pi*a<<" "<<pi*a*a;
     return 0;
 }
+
