@@ -433,3 +433,115 @@
 //    cout<<fixed<<setprecision(2)<<static_cast<double>(4)/3*3.14*a*a*a;
 //    return 0;
 //}
+
+//练8.1(难需要用到if才能完美判断90的09情况只输出9，这个网站判卷有问题)
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,b,c;
+//    cin>>a;
+//    b = a%10;
+//    c = a/10;
+//    if(b!=0){
+//        cout<<b<<c;
+//    } else{
+//        cout<<c;
+//    }
+//    return 0;
+//}
+
+//练8.1(难需要用到if才能完美判断90的09情况只输出9，这个网站判卷有问题)
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,b,c;
+//    cin>>a;
+//    b = a%10;
+//    c = a/10;
+//    if(b!=0){
+//        cout<<b<<c;
+//    } else{
+//        cout<<c;
+//    }
+//    return 0;
+//}
+
+//练8.2
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a;
+//    cin>>a;
+//    cout<<a*0.3;
+//    return 0;
+//}
+
+
+//练8.3
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,b;
+//    cin>> a >> b ;
+////    不设置的cout默认输出为6位
+//    cout<<fixed<<setprecision(9)<<static_cast<double>(a)/b;
+//    return 0;
+//}
+
+//练8.4
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,b;
+//    cin>> a >> b ;
+//    cout<<a/b<<" "<<a%b;
+//    return 0;
+//}
+
+//练8.5 (难，已超纲在需要使用循环来枚举)
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,b;
+//    cin>>a>>b;
+//    for (;a>1;a--) {
+//        if(a%b==0){
+//            cout<<a;
+//            break;
+//        }
+//    }
+//    return 0;
+//}
+
+//例9.1
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    char a;
+//    cin>>a;
+//    cout<<"  "<<a<<"  "<<endl
+//    <<" "<<a<<a<<a<<" "<<endl
+//    <<a<<a<<a<<a<<a;
+//    return 0;
+//}
+
+//例9.2
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a;
+//    cin>>a;
+//    cout<<(char)a;
+//    return 0;
+//}
+
+//例9.3
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    char a;
+    cin>>a;
+//    这里强制转换的执行顺序为括号内的减法执行完毕后进行加减，因为如果是整数相除而才进行转换double会损失精度暴露了这一点
+    cout<<(char)(a-32);
+    return 0;
+}
