@@ -388,8 +388,8 @@
 //例8.1 难
 //#include<bits/stdc++.h>
 //using namespace std;
-//int a,hd,fif,twt,ten,fiv;
 //int main(){
+//    int a,hd,fif,twt,ten,fiv;
 //    cin>>a;
 //    hd = a/100;
 //    a -= hd*100;
@@ -407,5 +407,29 @@
 //    <<ten<<endl
 //    <<fiv<<endl
 //    <<a/1;
+//    return 0;
+//}
+
+
+//例8.2
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,b,c;
+//    cin>> a >> b >> c;
+//    cout<<a*0.2+b*0.3+c*0.5;
+//    return 0;
+//}
+
+
+//例8.3
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a;
+//    cin>> a;
+////    static_cast<double>当做函数用，要直接将数转换类型，而不是把他计算后的结果，因为如果是除法精度就因为都是整型已经丢失了
+////    相对于C语言风格的(double)static_cast更加内存安全和易懂与方便查看功能
+//    cout<<fixed<<setprecision(2)<<static_cast<double>(4)/3*3.14*a*a*a;
 //    return 0;
 //}
