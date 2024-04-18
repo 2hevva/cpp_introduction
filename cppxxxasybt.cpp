@@ -536,12 +536,94 @@
 //}
 
 //例9.3
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    char a;
+//    cin>>a;
+////    这里强制转换的执行顺序为括号内的减法执行完毕后进行加减，因为如果是整数相除而才进行转换double会损失精度暴露了这一点
+//    cout<<(char)(a-32);
+//    return 0;
+//}
+
+//练9.1
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    char a;
+//    cin>>a;
+//    //使用一个cout和使用多行在程序执行中有什么区别？
+//    cout<<"  "<<a<<endl;
+//    cout<<" "<<a<<a<<a<<endl;
+//    cout<<a<<a<<a<<a<<a<<endl;
+//    cout<<" "<<a<<a<<a<<endl;
+//    cout<<"  "<<a;
+//    return 0;
+//}
+
+////练9.2
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    char a;
+//    cin>>a;
+//    cout<<(int)a;
+//    return 0;
+//}
+
+
+//练9.3可以作为类型转换的引导例题
+//密码学加密基础
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    char a[5];
+//    cin>>a;
+////    为什么(char)a[0]+4进行强制类型转换的时候输出的是数字而不是字符？
+////    cout<<(char)(a[0]+4)<<(char)(a[1]+4)<<(char)(a[2]+4)<<(char)(a[3]+4)<<(char)(a[4]+4);
+////    cout<<(char)a[0]+4<<(char)a[1]+4<<(char)a[2]+4<<(char)a[3]+4<<(char)a[4]+4;
+//    cout<<(char)a[0]+4<<" "<<(char)a[1]+4<<" "<<(char)a[2]+4<<" "<<(char)a[3]+4<<" "<<(char)a[4]+4;
+//    return 0;
+//}
+
+
+//例子10.1
+//略超纲，本体考察浮点求余以及对位数的控制细节，如果不使用if会特别困难
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    float a,b;
+//    int c;
+////    只有整型可以用求余运算
+//    cin>> a >> b;
+//    c = (int)(a*b/10);
+//    if(c%10<=4){
+//        cout<<c-c%10;
+//    }else{
+//        cout<<c-c%10+1;
+//    }
+//    return 0;
+//}
+
+//例子10.2（难）
+//可以作为算法入门的题目 逆推法,比例才是这个题的核心,
+// 已知结果为8 8 8 按照分法还原先将已知比例为：2的还原，最后根据结果还原最后一个人这一轮的值
+//一次类推
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    char a;
-    cin>>a;
-//    这里强制转换的执行顺序为括号内的减法执行完毕后进行加减，因为如果是整数相除而才进行转换double会损失精度暴露了这一点
-    cout<<(char)(a-32);
+    int x;
+    cin>>x;
+    int a=x/3,b=x/3,c=x/3;
+    a=a/2;
+    b=b/2;
+    c=a+b+c;
+    a=a/2;
+    c=c/2;
+    b=b+a+c;
+    b=b/2;
+    c=c/2;
+    a=a+b+c;
+    cout<<a<<" "<<b<<" "<<c;
     return 0;
 }
