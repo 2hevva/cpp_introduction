@@ -607,23 +607,212 @@
 
 //例子10.2（难）
 //可以作为算法入门的题目 逆推法,比例才是这个题的核心,
-// 已知结果为8 8 8 按照分法还原先将已知比例为：2的还原，最后根据结果还原最后一个人这一轮的值
+// 已知结果为8 8 8 按照分法还原先将已知比例为1：2的还原，最后根据结果还原最后一个人这一轮的值
 //一次类推
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int x;
+//    cin>>x;
+//    int a=x/3,b=x/3,c=x/3;
+//    a=a/2;
+//    b=b/2;
+//    c=a+b+c;
+//    a=a/2;
+//    c=c/2;
+//    b=b+a+c;
+//    b=b/2;
+//    c=c/2;
+//    a=a+b+c;
+//    cout<<a<<" "<<b<<" "<<c;
+//    return 0;
+//}
+
+//练10.1
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    cout<<2*2*2*2*2*1;
+//    return 0;
+//}
+
+//练10.2
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    double x;
+//    cin>>x;
+//    cout<<(int)x;
+//    return 0;
+//}
+
+//练10.3
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    double a,b,c;
+//    cin>> a >> b ;
+////    本题重点在商要取整数
+////    并且括号要打在商上，而不是a或者b上，否则会提前损失精度
+//    c = (int)(a/b);
+//    cout<<a-c*b;
+//    return 0;
+//}
+
+
+//例11.1
+//难算法入门
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,b,c;
+//    cin>> a >> b;
+////    让兔子抬腿把鸡腿全部拿掉并且拿掉兔子的一半的腿，将总腿数减去这些拿掉的腿剩余就是兔各2腿，进行除2就能算出兔子的头数。
+//    c = (b-a*2)/2;
+////    注意鸡放前兔放后
+//    cout<<a-c<<" "<<c;
+//    return 0;
+//}
+
+
+//例11.2
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int x;
+//    cin>>x;
+//    cout<<x%10<<x%100/10<<x/100;
+//    return 0;
+//}
+
+
+//练11.1
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int x;
+//    cin>>x;
+//    cout<<fixed<<setprecision(5)<<(float)(x-32)*5/9;
+//    return 0;
+//}
+
+
+//练11.2
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int x;
+//    cin>>x;
+//    cout<<x/1000<<" "<<x/100%10<<" "<<x%100/10<<" "<<x%10;
+//    return 0;
+//}
+
+//练11.3
+//算法入门 难
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,b,c;
+//    cin>> a >> b >> c ;
+////1 4 7 10 13 16 19 22 为什么不能用+2.因为-(b-a)是在于下标数字与ab差的积才通用所有等差数列
+////1 2 3 4  5  6  7  8
+////只有当前的这个等差数列才是差3的等差数列，可是遇到差5的等差数列难道也能+2吗？所以减去数列的等差值才是对的
+////而为什么需要+1呢？因为这个数列是从1开始计算的，而不是从0，也就是自始至终所有项都隐含了一个+1的条件
+////而等差数列也可以从0开始可以从12345678等任何一个数开始，所以这个1也要用变量来表示
+////    cout<<(b-a)*c-(b-a)+a;
+////    也可以使用简化的
+//    cout<<a+(b-a)*(c-1);
+//    return 0;
+//}
+
+
+//练11.4
+//这题类型属于系统测试文件出问题了
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    long long a,b,c;
+//    cin>> a >> b >> c ;
+//    cout<<(a+b)*c;
+//    return 0;
+//}
+
+
+
+////练11.5
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,b,c;
+//    cin>> a >> b >> c ;
+//    cout<<(a+b)/c;
+//    return 0;
+//}
+
+
+////例12.1
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    double d;
+//    float f;
+//    cout<<sizeof(d)<<" "<<sizeof(f);
+//    return 0;
+//}
+
+
+//例12.2
+//判题依然有问题需要longlong有测试大数的情况
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    long long a,b,c;
+//    cin>> a >> b >> c;
+////    记得不要去构造一个abc其中有两个值相等的长方形
+//    cout<<2*a*b+2*b*c+2*a*c;
+//    return 0;
+//}
+
+
+//例12.3
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,b;
+//    cin>> a >> b;
+//    cout<<fixed<<setprecision(3)<<100.0*b/a<<"%";
+//    return 0;
+//}
+
+
+//练12.1
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a;
+//    short b;
+//    cout<<sizeof(a)<<" "<<sizeof(b);
+//    return 0;
+//}
+
+
+//练12.2
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a, b;
+//    cin>> a >> b;
+////    如果这里用类型转换的话会比较麻烦也很容易出错，转小数类型直接乘以1.0就很方便，缺点是编译器默认的float或者double
+//    cout<<fixed<<setprecision(4)<<100.0*b/a;
+//    return 0;
+//}
+
+//练12.4
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    int x;
-    cin>>x;
-    int a=x/3,b=x/3,c=x/3;
-    a=a/2;
-    b=b/2;
-    c=a+b+c;
-    a=a/2;
-    c=c/2;
-    b=b+a+c;
-    b=b/2;
-    c=c/2;
-    a=a+b+c;
-    cout<<a<<" "<<b<<" "<<c;
+    double a, b;
+    cin>> a >> b;
+    cout<<fixed<<setprecision(2)<<1/(1/a+1/b);
     return 0;
 }
