@@ -308,7 +308,7 @@
 //    return 0;
 //}
 
-////例7.1
+////例7.1 420
 ////http://bas.ssoier.cn:8086/ 会因为定义为float而某个测试脚本给了一个double数而出错
 //#include<bits/stdc++.h>
 //using namespace std;
@@ -450,21 +450,6 @@
 //    return 0;
 //}
 
-//练8.1(难需要用到if才能完美判断90的09情况只输出9，这个网站判卷有问题)
-//#include<bits/stdc++.h>
-//using namespace std;
-//int main(){
-//    int a,b,c;
-//    cin>>a;
-//    b = a%10;
-//    c = a/10;
-//    if(b!=0){
-//        cout<<b<<c;
-//    } else{
-//        cout<<c;
-//    }
-//    return 0;
-//}
 
 //练8.2
 //#include<bits/stdc++.h>
@@ -572,7 +557,7 @@
 //}
 
 
-//练9.3可以作为类型转换的引导例题
+//练9.3可以作为类型转换的引导例题，不过最好还是学生掌握数组以后吧
 //密码学加密基础
 //#include<bits/stdc++.h>
 //using namespace std;
@@ -646,7 +631,7 @@
 //    return 0;
 //}
 
-//练10.3
+//练10.3 420
 //#include<bits/stdc++.h>
 //using namespace std;
 //int main(){
@@ -660,7 +645,7 @@
 //}
 
 
-//例11.1
+//例11.1 420
 //难算法入门
 //#include<bits/stdc++.h>
 //using namespace std;
@@ -707,8 +692,7 @@
 //    return 0;
 //}
 
-//练11.3
-//算法入门 难
+//练11.3 420
 //#include<bits/stdc++.h>
 //using namespace std;
 //int main(){
@@ -726,7 +710,7 @@
 //}
 
 
-//练11.4
+//练11.4 420
 //这题类型属于系统测试文件出问题了
 //#include<bits/stdc++.h>
 //using namespace std;
@@ -750,7 +734,7 @@
 //}
 
 
-////例12.1
+//例12.1 420
 //#include<bits/stdc++.h>
 //using namespace std;
 //int main(){
@@ -761,7 +745,7 @@
 //}
 
 
-//例12.2
+//例12.2 420
 //判题依然有问题需要longlong有测试大数的情况
 //#include<bits/stdc++.h>
 //using namespace std;
@@ -774,7 +758,7 @@
 //}
 
 
-//例12.3
+//例12.3 420
 //#include<bits/stdc++.h>
 //using namespace std;
 //int main(){
@@ -785,7 +769,7 @@
 //}
 
 
-//练12.1
+//练12.1 420
 //#include<bits/stdc++.h>
 //using namespace std;
 //int main(){
@@ -796,7 +780,7 @@
 //}
 
 
-//练12.2
+//练12.2 420
 //#include<bits/stdc++.h>
 //using namespace std;
 //int main(){
@@ -807,7 +791,7 @@
 //    return 0;
 //}
 
-//练12.4
+//练12.4 420
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
