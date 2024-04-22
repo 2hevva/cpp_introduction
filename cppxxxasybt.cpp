@@ -811,11 +811,13 @@
 //    return 0;
 //}
 
-
+//二进制表示
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    bitset<8> foo (std::string("00000000"));
-    cout<<foo.to_string();
+    std::bitset<sizeof(int) * 8> binary(-2147483648);
+    std::bitset<sizeof(int) * 8> fuyi(-1);
+    cout<<"二进制表示："<<binary<<endl;
+    cout<<"fuyi取反二进制表示："<<fuyi<<endl;
     return 0;
 }
