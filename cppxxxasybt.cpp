@@ -812,10 +812,10 @@
 //}
 
 
-//#include<bits/stdc++.h>
-//using namespace std;
-//int main(){
-//    bitset<8> foo (std::string("00000000"));
-//    cout<<foo.to_string();
-//    return 0;
-//}
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    bitset<8> foo (std::string("00000000"));
+    cout<<foo.to_string();
+    return 0;
+}
