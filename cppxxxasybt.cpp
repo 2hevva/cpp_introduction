@@ -801,11 +801,21 @@
 //     return 0;
 // }
 
-#include<bits/stdc++.h>
-using namespace std;
-int main(){
-    int a;
-    a = 2147483647;
-    cout<<a+1;
-    return 0;
-}
+//字节测试
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a;
+//    a = 2147483647;
+//    cout<<a+1;
+//    return 0;
+//}
+
+
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    bitset<8> foo (std::string("00000000"));
+//    cout<<foo.to_string();
+//    return 0;
+//}
