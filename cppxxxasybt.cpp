@@ -812,12 +812,86 @@
 //}
 
 //二进制表示
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    std::bitset<sizeof(int) * 8> binary(-2147483648);
+//    std::bitset<sizeof(int) * 8> fuyi(-1);
+//    cout<<"二进制表示："<<binary<<endl;
+//    cout<<"fuyi取反二进制表示："<<fuyi<<endl;
+//    return 0;
+//}
+
+//例13.1
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    char c;
+//    int i;
+//    float f;
+//    double d;
+//    cin>>c>>i>>f>>d;
+//    cout<<c<<" "<<i<<fixed<<setprecision(6)<<" "<<f<<" "<<d;
+//    return 0;
+//}
+
+////例13.2 难 不用if有点麻烦
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,hour,min,second;
+//    cin>>a;
+//    hour = a/3600;
+//    min = (a-hour*3600)/60;
+//    second = a-hour*3600-min*60;
+//    if(hour<10)
+//        cout<<"0"<<hour<<":";
+//    else
+//        cout<<hour<<":";
+//    if(min<10)
+//        cout<<"0"<<min<<":";
+//    else
+//        cout<<min<<":";
+//    if(second<10)
+//        cout<<"0"<<second;
+//    else
+//        cout<<second;
+//    return 0;
+//}
+
+
+////例13.3
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,ahour,amin,asecond;
+//    int b,bhour,bmin,bsecond;
+//    scanf("%d:%d:%d",&ahour,&amin,&asecond);
+//    scanf("%d:%d:%d",&bhour,&bmin,&bsecond);
+//    a = ahour*3600+amin*60+asecond;
+//    b = bhour*3600+bmin*60+bsecond;
+//    cout<<b-a;
+//    return 0;
+//}
+
+//练13.1
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    cout<<"   18"<<endl
+//    <<"+ 870"<<endl
+//    <<"-----------"<<endl
+//    <<"  888";
+//    return 0;
+//}
+
+
+//练13.2
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
-    std::bitset<sizeof(int) * 8> binary(-2147483648);
-    std::bitset<sizeof(int) * 8> fuyi(-1);
-    cout<<"二进制表示："<<binary<<endl;
-    cout<<"fuyi取反二进制表示："<<fuyi<<endl;
+    int a,b,c;
+    cin>> a >> b >> c;
+    cout<<a<<"        "<<b<<"         "<<c;
     return 0;
 }
