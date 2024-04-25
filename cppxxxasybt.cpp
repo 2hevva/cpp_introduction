@@ -887,11 +887,14 @@
 
 
 //练13.2
+//难 这题有点恶心的
 #include<bits/stdc++.h>
+#include<iomanip>
 using namespace std;
 int main(){
     int a,b,c;
-    cin>> a >> b >> c;
-    cout<<a<<"        "<<b<<"         "<<c;
+    cin>> a >> b >> c ;
+    cout<<setw(8)<<a<<" "<<setw(8)<<b<<" "<<setw(8)<<c;
+//    cout<<"123456789       0      -1";
     return 0;
 }
