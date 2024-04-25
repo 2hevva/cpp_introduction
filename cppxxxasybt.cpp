@@ -888,13 +888,49 @@
 
 //练13.2
 //难 这题有点恶心的
-#include<bits/stdc++.h>
-#include<iomanip>
-using namespace std;
-int main(){
-    int a,b,c;
-    cin>> a >> b >> c ;
-    cout<<setw(8)<<a<<" "<<setw(8)<<b<<" "<<setw(8)<<c;
-//    cout<<"123456789       0      -1";
-    return 0;
-}
+//#include<bits/stdc++.h>
+//#include<iomanip>
+//using namespace std;
+//int main(){
+//    int a,b,c;
+//    cin>> a >> b >> c ;
+//    cout<<setw(8)<<a<<" "<<setw(8)<<b<<" "<<setw(8)<<c;
+////    cout<<"123456789       0      -1";
+//    return 0;
+//}
+
+//练13.3
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a;
+//    cin>> a;
+//    cout<<a%10<<a/10%10<<a/100;
+//    return 0;
+//}
+
+
+//练13.4
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a,b,c,d,e;
+//    cin>> a >> b >> c >> d >> e ;
+//    a/=3;
+//    b+=a;
+//    e+=a;
+//    b/=3;
+//    a+=b;
+//    c+=b;
+//    c/=3;
+//    b+=c;
+//    d+=c;
+//    d/=3;
+//    c+=d;
+//    e+=d;
+//    e/=3;
+//    d+=e;
+//    a+=e;
+//    cout<<setw(5)<<a<<setw(5)<<b<<setw(5)<<c<<setw(5)<<d<<setw(5)<<e;
+//    return 0;
+//}
