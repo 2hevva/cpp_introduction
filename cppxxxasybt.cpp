@@ -835,7 +835,7 @@
 //    return 0;
 //}
 
-////例13.2 难 不用if有点麻烦
+////例13.2 难 如果不用格式控制 不用if有点麻烦
 //#include<bits/stdc++.h>
 //using namespace std;
 //int main(){
@@ -856,6 +856,26 @@
 //        cout<<"0"<<second;
 //    else
 //        cout<<second;
+//    return 0;
+//}
+
+//例13.2 不用if使用printf和scanf自带格式控制方式
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int a;
+//    scanf("%d",&a);
+//    printf("%02d:%02d:%02d",a/3600,(a%3600)/60,a%60);
+//    return 0;
+//}
+
+//例13.2 使用cin和cout对象流处理方式
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    int x;
+//    cin>>x;
+//    cout<<setfill('0')<<setw(2)<<x/3600<<":"<<setw(2)<<(x%3600)/60<<":"<<setw(2)<<x%3600%60;
 //    return 0;
 //}
 
