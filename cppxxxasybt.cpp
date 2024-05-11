@@ -954,3 +954,43 @@
 //    cout<<setw(5)<<a<<setw(5)<<b<<setw(5)<<c<<setw(5)<<d<<setw(5)<<e;
 //    return 0;
 //}
+
+//例子14.1
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    double d;
+//    cin>>d;
+//    printf("%f\n",d);  //双精度浮点数输出
+//    printf("%.5f\n",d);//五位小数
+//    printf("%e\n",d); //科学计数法
+//    printf("%g\n",d); //自动选择宽度
+//    return 0;
+//}
+
+
+//例子14.2
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    double d;
+//    int y;
+//    scanf("%lf",&d);//输入双精度浮点数
+//    scanf("%d",&y);//输入你想他在第几位保留并且会四舍六入五成双
+//    printf("%.*lf\n",y,d);//打印输出
+//    return 0;
+//}
+
+
+//例子14.3
+//#include<bits/stdc++.h>
+//using namespace std;
+//int main(){
+//    double n;
+//    int m;
+//    scanf("%lf",&n);
+//    n+=0.5;//完成四舍五入
+//    m=n;//本题精髓，把浮点数用整型来输出，会自动抹去后面的0
+//    printf("%d",m);
+//    return 0;
+//}
