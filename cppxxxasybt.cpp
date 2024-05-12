@@ -1110,3 +1110,39 @@
 //        printf("%.2lf",w*1.98);
 //    return 0;
 //}
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n,count;
+    cin>>n;
+    count = n-1;
+    int arr[n];
+    while(n>1){
+        cin>>arr[n-1];
+        n--;
+    }
+
+//    for (int i = 1; i < sizeof(arr)/sizeof(arr[0]); ++i) {
+//        cout<<arr[i]<<endl;
+//    }
+
+    while (count>0){
+        int pass = 0;
+        for (int i = 1; i < sizeof(arr)/sizeof(arr[0]); ++i) {
+            if(arr[i]==count){
+                pass = 0;
+                break;
+            }else{
+                pass = i;
+            }
+        }
+        if(pass!=0){
+            count<<arr[pass];
+            break;
+        }
+        count--;
+    }
+    return 0;
+}
